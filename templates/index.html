@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Face-Mask Detection
+        </title>
+    </head>
+    <body>
+        <h1>Face-Mask Detection</h1>
+        <form method="POST" action="{{url_for('resultForm')}}" enctype="multipart/form-data">
+            <!-- image input -->
+            <input type="file" name='image' class='btn'>
+            <br><br><br>
+            <!-- submit -->
+            <input type="submit" class='btn'>
+        </form>
+    </body>
+</html>
